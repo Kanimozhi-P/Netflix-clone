@@ -1,0 +1,12 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "Minimal placeholder project so CI and Sonar can analyze code",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "mkdir -p build && cp -r src/* build/ || true",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "license": "MIT"
+}
