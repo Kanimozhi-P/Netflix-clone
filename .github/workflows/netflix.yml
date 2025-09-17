@@ -32,7 +32,7 @@ jobs:
           trivy fs .
 
       - name: Docker build and push
-        run: 
+        run: | 
           #run commands to build and push docker images
           docker build --build-arg TMDB_V3_API_KEY=15c3a81f04e7ed513115a7c97c5e7372 -t netflix ."
           docker tag netflix fruitlanguage/netflix:latest
