@@ -8,7 +8,7 @@ on:
 jobs:
   build-analyze-scan:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, aws-netflix]
     steps:
       - uses: actions/checkout@v2
         with:
